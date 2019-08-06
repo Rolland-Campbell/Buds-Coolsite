@@ -29,22 +29,30 @@ span.left{
   display: inline-block;
   width: 25%;
   height: 100%;
-  padding: 10px;
-}
+  }
+
 span.middle{
-display: inline-block;
-  width: 40%;
+  display: inline-block;
+  width: 45%;
   height: 100%;
-  padding: 10px;
 }
+
 span.right{
   display: inline-block;
   width: 25%;
   height: 100%;
-  padding: 10px;
+  font-size: 6;
 }
 
 .footer{
   background-color: #1C4587;
   padding: 30px;
+}
+
+.photo-here{
+  width: 60%;
+  height: 40%;
+  outline: 1px solid black;
+  background-color: #4A86E8;
+  justify-content: center
 }
