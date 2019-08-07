@@ -1,9 +1,17 @@
+*{
+  outline: black solid 1px;
+}
+
 .background-blue{
   background-color: #1C4587;
 }
 
 .font-arial{
 font-family: Arial, Helvetica, sans-serif;
+}
+
+.font-subarticle{
+  font-size: 8pt
 }
 
 .rectangle{
@@ -33,7 +41,7 @@ span.left{
 
 span.middle{
   display: inline-block;
-  width: 45%;
+  width: 49%;
   height: 100%;
 }
 
@@ -51,8 +59,9 @@ span.right{
 
 .photo-here{
   width: 60%;
-  height: 40%;
-  outline: 1px solid black;
+  height: 80%;
+  justify-self: center;
+  outline: black 1px solid;
   background-color: #4A86E8;
-  justify-content: center
+  text-align: center;
 }
